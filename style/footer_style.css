@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+.proverka{
+    margin-top: 1000px;
+}
+
+html {
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, 
+li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+/* settings close */
+
+/* footer start */
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    max-height: 600px;
+    padding: 30px 0;
+    background-color: #f5f7fa;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer_block{
+    display: flex;
+}
+
+.footer__app{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 40px 20px;
+    border: 1px rgba(92, 91, 91, 0.795) solid;
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 0 0;
+    
+}
+
+.footer__app-txt{
+    max-width: 200px;
+    margin: 16px auto;
+}
+
+.footer_qr{
+    height: 200px;
+    width: 200px;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.column_info{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+
+.column_title{
+    font-weight: 700;
+    margin: 0 0 15px;
+    font-size: 24px;
+}
+
+.column_link{
+    margin: 0 0 16px;
+    font-size: 18px;
+    
+}
+
+.app_txt{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* icons */
+
+.footer__apps-social{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90px;
+}
+
+.footer__apps-logos{
+    position: relative;
+}
+
+.footer__apps-icon{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.footer__apps-icon:hover{
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.ios{
+    position: relative;
+}
+
+.ios::before{
+    content: '';
+    background-image: url(/img/apple.svg);
+    width: 19px;
+    height: 23px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.playm{
+    position: relative;
+}
+
+.playm::before{
+    content: '';
+    background-image: url(/img/google_play.svg);
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.footer_more-info{
+    margin: 30px 0 40px;
+    font-size: 14px;
+    color: rgb(165, 165, 165);
+}
+/* footer end */
